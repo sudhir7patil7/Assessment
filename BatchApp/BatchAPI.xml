@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BatchAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BatchAPI.Controllers.BatchController.GetBatch">
+            <summary>
+            Get the List of Batches
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BatchAPI.Controllers.BatchController.GetBatch(System.Guid)">
+             <summary>
+            Get Individual Batch      
+             </summary>
+             <param name="batchId">The Id of the Batch</param>
+             <returns></returns>
+        </member>
+        <member name="M:BatchAPI.Controllers.BatchController.CreateBatch(BatchAPI.Models.Dtos.BatchDtos)">
+            <summary>
+            This Adds a new Batch Entry
+            </summary>
+            <param name="batchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BatchAPI.Controllers.BatchController.Updatebatch(System.Guid,BatchAPI.Models.Dtos.BatchDtos)">
+            <summary>
+            This is Used to make changes to a batch
+            </summary>
+            <param name="batchId"></param>
+            <param name="batchDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BatchAPI.Controllers.BatchController.Deletebatch(System.Guid)">
+            <summary>
+            This Deletes the given Batch
+            </summary>
+            <param name="batchId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
